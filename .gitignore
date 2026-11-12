@@ -1,0 +1,27 @@
+# Python Bytecode, Caches & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+venv/
+env/
+ENV/
+.venv/
+
+# Raw and Intermediate Data & Database Files
+data/raw/
+backend/src/data/raw/
+backend/src/data/processed/telco_churn_clean.csv
+*.db
+*.sqlite
+*.sqlite3
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# OS & Editor Specific Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.env
